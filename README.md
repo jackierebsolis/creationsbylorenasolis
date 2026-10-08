@@ -1,19 +1,12 @@
-# Wildstem Florals website
+# Creations by Lorena Solis website
 
-Plain HTML site, no build step. Works on Vercel as-is.
+Plain HTML site, no build step. Every file sits in one folder (no subfolders) so uploading to GitHub is easy.
 
-## Put it online (Vercel)
-Option A, no code tools:
-1. Go to vercel.com, sign in, click "Add New..." > "Project".
-2. Choose to deploy by uploading this folder (or use `npx vercel` from inside it).
+## Update the live site
+1. On GitHub, open the repo, click Add file > Upload files.
+2. Select every file in this folder and drag them in. Same names replace the old ones.
+3. Click Commit changes. Vercel updates the site in about a minute.
 
-Option B, GitHub (best for future edits):
-1. Create a new GitHub repo and upload everything in this folder.
-2. In Vercel: Add New > Project > import the repo. Framework preset: "Other". Leave build settings empty. Deploy.
-3. Every time you change a file on GitHub, Vercel updates the site automatically.
-
-## What to edit in index.html
-- Phone, email, Instagram: search for `555`, `hello@`, `yourhandle`
-- City: search for `[your city]`
-- Colors and fonts: the `:root` block at the top of the <style>
-- Photos: see photos/PUT-PHOTOS-HERE.txt
+## Adding a portfolio photo
+1. Upload the photo to GitHub (same place as index.html).
+2. In index.html, find "EASY EDIT 2" and copy one line in the list, changing the file name and details.
